@@ -71,7 +71,7 @@ function addMeal(mealData, random = false) {
     meals.appendChild(meal);
     
     const favImg = document.getElementById('favImg');
-    favImg.addEventListener("click", () => { // meal.addEvnt..
+    meal.addEventListener("click", () => { // fav.addEvnt..
         showMealInfo(mealData);
     })
 
